@@ -1,0 +1,99 @@
+body{
+	background: #E0F4CF;
+	
+	margin:0;
+}
+
+header{
+	width:100%;
+	heigh:250px;
+}
+header h1{
+	padding:60px 30px;
+	background-image:url(../img/regleta.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:auto;
+	font-size:18px;
+	font-weight:700;
+	text-transform:uppercase;
+	-webkit-margin-before:0;
+}
+p,h1{margin:0;padding:0;}
+input{padding:15px 30px;}
+input{
+	background-color:#fff;
+	box-shadow:none;
+}
+#bloqueEnergia{
+	position:relative;
+	margin:0 auto;
+	border-top:1px solid #ccc;
+}
+.background{
+	padding:40px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.preguntas{
+
+	background-color:#E0F4CF;
+	border: 2px solid;
+	border-color:rgba(180,42,51,1);
+	width:700px;
+	padding:30px;
+	margin:40px auto;
+	text-align:center;
+
+}
+.label{
+	display:block;
+}
+.label-container{
+	display:inline-block;
+	margin:0 auto;
+	text-align:left;
+}
+
+.btnEnviar{
+	 
+	 position: absolute;
+	 left: 50%;
+	 transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+}
+
+#estiloSelect{
+   -webkit-appearance: button;
+   -webkit-border-radius: 2px;
+   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+   -webkit-padding-end: 20px;
+   -webkit-padding-start: 2px;
+   -webkit-user-select: none;
+   background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(rgba(180,42,51,1),rgba(180,42,51,1), 40%, rgba(180,42,51,1));
+   background-position: 97% center;
+   background-repeat: no-repeat;
+   border: 1px solid #AAA;
+   color: #555;
+   font-size: inherit;
+   margin: 20px;
+   overflow: hidden;
+   padding: 5px 10px;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   width: 300px;
+}
+
+#estiloSelect{
+   color: #fff;
+   background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#779126, #779126 40%, #779126);
+   background-color: #779126;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   padding-left: 15px;
+}
+.miDiv{
+	height:50px;
+}
+

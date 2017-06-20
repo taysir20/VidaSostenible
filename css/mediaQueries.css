@@ -1,0 +1,40 @@
+@media screen and (min-width: 300px)and (max-width:500px) {
+ 
+    .preguntas {
+        width: 80%;
+		height:350px;
+		
+    }
+	.label{
+		padding-top:40px;
+		
+	}
+	body{
+	font-size:15px;
+	}
+	header h1{
+	
+	color:green;
+	}
+	
+ }
+ @media screen and (min-width: 500px)and (max-width:750px) {
+ 
+    .preguntas {
+        width: 80%;
+		height:600px;
+		
+    }
+	.label{
+		padding-top:60px;
+		
+	}
+	body{
+	font-size:25px;
+	}
+	header h1{
+	
+	color:green;
+	}
+	
+ }

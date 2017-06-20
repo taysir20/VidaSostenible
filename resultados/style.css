@@ -1,0 +1,78 @@
+body{
+	background: #E0F4CF;
+	margin:0;
+}
+header h1{
+	padding:60px 30px;
+	background-image:url(regleta.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	font-size:18px;
+	font-weight:700;
+	text-transform:uppercase;
+	-webkit-margin-before:0;
+}
+p,h1{margin:0;padding:0;}
+input{padding:15px 30px;}
+input{
+	background-color:#fff;
+	box-shadow:none;
+}
+#bloqueEnergia{
+	position:relative;
+	margin:0 auto;
+	border-top:1px solid #ccc;
+}
+.background{
+	padding:40px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.preguntas{
+	border: 2px black solid;
+	width:700px;
+	padding:30px;
+	margin:40px auto;
+	text-align:center;
+
+}
+.label{
+	display:block;
+}
+.label-container{
+	display:inline-block;
+	margin:0 auto;
+	text-align:left;
+}
+
+.preguntas{
+    text-align: center;
+}
+
+.respuestas{
+    text-align: center;
+    
+}
+
+.Thuella h1{
+    text-align: center;
+    
+}
+
+.planet h3{
+    text-align: center;
+    
+}
+
+.imgPlanet1 img{
+    margin-left: 650px;
+}
+
+.imgPlanet2 img{
+    margin-left: 250px;
+}
+
+.imgPlanet3 img{
+    margin-left: 100px;
+}

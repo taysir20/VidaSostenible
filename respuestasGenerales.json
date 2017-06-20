@@ -1,0 +1,309 @@
+{
+	"Generales": [{
+			"texto_pregunta": "Inidica el país en el que resides",
+			"id": "pais",
+			"tipo_respuesta": "0",
+			"Obligatoria": "1",
+			"selector": "select",
+			"orden": "1",
+			"DependenciaRespuesta": null,
+			"respuesta": [{
+					"id": "España",
+					"texto": "España",
+					"puntuacion": "0",
+					"anotacion": ""
+				},
+				{
+					"id": "Francia",
+					"texto": "Francia",
+					"puntuacion": "0",
+					"anotacion": ""
+				},{
+					"id": "Alemania",
+					"texto": "Alemania",
+					"puntuacion": "0",
+					"anotacion": ""
+				}
+			]
+		},
+		{
+		"texto_pregunta": "Inidica tu Comunidad Autónoma",
+			"id": "CCAA",
+			"tipo_respuesta": "0",
+			"Obligatoria": "1",
+			"selector": "select",
+			"orden": "2",
+			"DependenciaRespuesta":"223",
+			"respuesta": [{
+					"id": "226",
+					"texto": "Comunidad de Madrid",
+					"puntuacion": "0",
+					"anotacion": ""
+				},
+				{
+					"id": "227",
+					"texto": "Barcelona",
+					"puntuacion": "0",
+					"anotacion": ""
+				},{
+					"id": "223",
+					"texto": "Málaga",
+					"puntuacion": "0",
+					"anotacion": ""
+				}
+			]
+
+		},
+		{
+			"texto_pregunta": "¿Cuál es tu nivel de ingresos familiar anual?",
+			"id": "ingresos",
+			"tipo_respuesta": "0",
+			"Obligatoria": "1",
+			"selector": "select",
+			"orden": "3",
+			"DependenciaRespuesta": null,
+			"respuesta": [{
+					"id": "228",
+					"texto": "Hasta 5.000 €/$us. ",
+					"puntuacion": "0",
+					"anotacion": ""
+				},
+				{
+					"id": "229",
+					"texto": "Entre 5.000 y 10.000 €/$us.",
+					"puntuacion": "0",
+					"anotacion": ""
+				},
+				{
+					"id": "230",
+					"texto": "Entre 10.000 y 20.000 € / $us.",
+					"puntuacion": "0",
+					"anotacion": ""
+				},
+				{
+					"id": "231",
+					"texto": "Entre 20.000 y 40.000 € / $us.",
+					"puntuacion": "0",
+					"anotacion": ""
+				},
+				{
+					"id": "232",
+					"texto": "Más 40.000 € / $us.",
+					"puntuacion": "0",
+					"anotacion": ""
+				}
+			]
+		},{
+			"texto_pregunta": "¿Cuál es tu nivel de estudios?",
+			"id": "estudios",
+			"tipo_respuesta": "0",
+			"Obligatoria": "1",
+			"selector": "select",
+			"orden": "4",
+			"DependenciaRespuesta": null,
+			"respuesta": [{
+					"id": "233",
+					"texto": "Ninguno",
+					"puntuacion": "0",
+					"anotacion": ""
+				},
+				{
+					"id": "234",
+					"texto": "Primer grado",
+					"puntuacion": "0",
+					"anotacion": ""
+				},
+				{
+					"id": "235",
+					"texto": "Segundo Grado",
+					"puntuacion": "0",
+					"anotacion": ""
+				},
+				{
+					"id": "236",
+					"texto": "Tercero",
+					"puntuacion": "0",
+					"anotacion": ""
+				}
+				
+			]
+		},
+		
+		{
+			"texto_pregunta": "¿Cuál es tu ámbito de titulación?",
+			"id": "titulacion",
+			"tipo_respuesta": "0",
+			"Obligatoria": "1",
+			"selector": "select",
+			"orden": "5",
+			"DependenciaRespuesta": null,
+			"respuesta": [{
+					"id": "237",
+					"texto": "Artes y Humanidades",
+					"puntuacion": "0",
+					"anotacion": ""
+				},
+				{
+					"id": "238",
+					"texto": "Ciencias",
+					"puntuacion": "0",
+					"anotacion": ""
+				},
+				{
+					"id": "239",
+					"texto": "Ciencias de la Salud",
+					"puntuacion": "0",
+					"anotacion": ""
+				},
+				{
+					"id": "240",
+					"texto": "Ciencias Sociales y Jurídicas",
+					"puntuacion": "0",
+					"anotacion": ""
+				},
+				{
+					"id": "241",
+					"texto": "Ingeniería y Arquitectura",
+					"puntuacion": "0",
+					"anotacion": ""
+				}
+			]
+		},
+		{
+			"texto_pregunta": "¿Qué edad tienes?",
+			"id": "edad",
+			"tipo_respuesta": "0",
+			"Obligatoria": "1",
+			"selector": "select",
+			"orden": "6",
+			"DependenciaRespuesta": null,
+			"respuesta": [{
+					"id": "242",
+					"texto": "Menos de 16 años",
+					"puntuacion": "0",
+					"anotacion": "La huella ecológica a lo largo de la edad parece tener forma de campana, siendo máxima en la edad adulta y disminuyendo hacia atrás, cuando somos preadultos, y hacia adelante, cuando somos ancianos. ¡Descontando la impresionante huella ecológica de los niños en su primer año de vida, solamente en pañales de usar y tirar! "
+				},
+				{
+					"id": "243",
+					"texto": "Entre 17 y 36",
+					"puntuacion": "0",
+					"anotacion": "La huella ecológica a lo largo de la edad parece tener forma de campana, siendo máxima en la edad adulta y disminuyendo hacia atrás, cuando somos preadultos, y hacia adelante, cuando somos ancianos. ¡Descontando la impresionante huella ecológica de los niños en su primer año de vida, solamente en pañales de usar y tirar! "
+				},
+				{
+					"id": "244",
+					"texto": "Entre 37 y 56",
+					"puntuacion": "0",
+					"anotacion": "La huella ecológica a lo largo de la edad parece tener forma de campana, siendo máxima en la edad adulta y disminuyendo hacia atrás, cuando somos preadultos, y hacia adelante, cuando somos ancianos. ¡Descontando la impresionante huella ecológica de los niños en su primer año de vida, solamente en pañales de usar y tirar! "
+				},
+				{
+					"id": "245",
+					"texto": "de 57 a 76",
+					"puntuacion": "0",
+					"anotacion": "La huella ecológica a lo largo de la edad parece tener forma de campana, siendo máxima en la edad adulta y disminuyendo hacia atrás, cuando somos preadultos, y hacia adelante, cuando somos ancianos. ¡Descontando la impresionante huella ecológica de los niños en su primer año de vida, solamente en pañales de usar y tirar! "
+				},
+				{
+					"id": "246",
+					"texto": "Más de 76",
+					"puntuacion": "0",
+					"anotacion": "La huella ecológica a lo largo de la edad parece tener forma de campana, siendo máxima en la edad adulta y disminuyendo hacia atrás, cuando somos preadultos, y hacia adelante, cuando somos ancianos. ¡Descontando la impresionante huella ecológica de los niños en su primer año de vida, solamente en pañales de usar y tirar! "
+				}
+			]
+		},
+		{
+			"texto_pregunta": "¿Cómo es la casa en la que vives? (Si tienes varias casas, tu domicilio principal)",
+			"id": "casa",
+			"tipo_respuesta": "0",
+			"Obligatoria": "1",
+			"selector": "select",
+			"orden": "7",
+			"DependenciaRespuesta": null,
+			"respuesta": [{
+					"id": "247",
+					"texto": "Un chalet o vivienda aislada",
+					"puntuacion": "0",
+					"anotacion": "Al vivir en una vivienda aislada, tu huella ecológica tiende a ser mayor. Necesitarás más energía para calentar la casa en comparación con un piso rodeado de otras viviendas, por ejemplo. También es probable que consumas más agua y que gastes más en transporte para ir y venir de tu casa. Pero también hay una parte positiva: al disponer de abundante espacio, puedes reducir tu huella ecológica drásticamente instalando paneles solares en el tejado, un sistema para acopiar el agua, un compostador para reciclar los restos de alimentos… y muchas otras cosas."
+				},
+				{
+					"id": "248",
+					"texto": "Un adosado",
+					"puntuacion": "0",
+					"anotacion": "Los adosados suelen ser mayores que los pisos, por lo que su huella ecológica también suele ser mayor. Por ejemplo, gastan más energía en calentar la casa. Pero también ofrecen la posibilidad de reducir drásticamente tu huella ecológica instalando un sistema de energía renovable (agua caliente solar, por ejemplo) en el tejado, un compostador en el jardín, etc. "
+				},
+				{
+					"id": "249",
+					"texto": "Una vivienda en un bloque de pisos",
+					"puntuacion": "0",
+					"anotacion": "Disponer de servicios comunes de agua y energía reduce mucho la huella ecológica de las viviendas dentro de un bloque de pisos. No obstante, las necesidades de energía variarán mucho según cuál sea la posición del piso en el edificio y su orientación. Por ejemplo, no es lo mismo un bajo orientado al norte que un último piso o un ático orientado al sur, que garantiza una fuerte insolación y tal vez problemas para mantener la casa fresca en verano. "
+				},
+				{
+					"id": "250",
+					"texto": "Una vivienda en una manzana de casas",
+					"puntuacion": "0",
+					"anotacion": "Un piso dentro de una manzana de casas suele tener un consumo mas reducido de energia para climatizacion, aunque eso varia mucho con la localización de la vivienda, si es exterior o interior, en un piso alto o bajo, y su orientación. Los edificios antiguos de muros gruesos ofrecen un buen aislamiento, lo que reduce las necesidades de calefacción."
+				}
+			]
+		},
+		{
+			"texto_pregunta": "¿Cuántas personas viven en tu hogar?",
+			"id": "hogar",
+			"tipo_respuesta": "0",
+			"Obligatoria": "1",
+			"selector": "select",
+			"orden": "8",
+			"DependenciaRespuesta": null,
+			"respuesta": [{
+					"id": "251",
+					"texto": "Una",
+					"puntuacion": "0",
+					"anotacion": "Vivir solo es una opción que cada vez más personas adoptan, independientemente de los motivos. Ten en cuenta que en esta caso el tamaño de tu huella ecológica se multiplica, y eso sucede en todos los aspectos: consumo de energía, agua, transporte, consumo de alimentos, producción de residuos, etc. Pero hay un lado positivo: vivir solo te permite organizarte al detalle, para reducir tu huella de la manera en que tú exactamente determines."
+				},
+				{
+					"id": "252",
+					"texto": "Dos",
+					"puntuacion": "0",
+					"anotacion": "Estás próximo al tamaño medio de los hogares en España, que es de 2,5 personas. Eso implica que será fácil poneros de acuerdo para reducir el tamaño de vuestra huella ecológica."
+				},
+				{
+					"id": "253",
+					"texto": "Tres",
+					"puntuacion": "0",
+					"anotacion": "Estás próximo al tamaño medio de los hogares en España, que es de 2,5 personas. Eso implica que será fácil poneros de acuerdo para reducir el tamaño de vuestra huella ecológica."
+				},
+				{
+					"id": "254",
+					"texto": "Mas de tres.",
+					"puntuacion": "0",
+					"anotacion": "Las viviendas habitadas por muchas personas suelen producir resultados de huella ecológica por persona reducidos, al compartir los recursos de energía, agua, alimentos, etc. Por ejemplo, permiten una compra de alimentos basada en productos frescos y en la adquisición de cantidades elevadas, lo que reduce el desperdicio y la producción de residuos. Pero eso depende mucho de las costumbres de las personas que habitan la casa."
+				}
+			]
+		},
+		{
+			"texto_pregunta": "Indica el espacio del que dispones en tu vivienda",
+			"id": "metros",
+			"tipo_respuesta": "0",
+			"Obligatoria": "1",
+			"selector": "select",
+			"orden": "9",
+			"DependenciaRespuesta": null,
+			"respuesta": [{
+					"id": "255",
+					"texto": "Menos de 60 m2.",
+					"puntuacion": "0",
+					"anotacion": "Las viviendas pequeñas tienen ventajas: son mas faciles de climatizar y de limpiar con un consumo reducido de agua y energia, por ejemplo. "
+				},
+				{
+					"id": "256",
+					"texto": "Entre 61 y 120 m2.",
+					"puntuacion": "0",
+					"anotacion": "Una proporción muy elevada de personas en nuestro país viven en pisos de alrededor de 80 metros cuadrados (aunque el tamaño medio de la vivienda es mayor, de unos 140 m2, pero eso incluye viviendas rurales). El consumo de energía y agua dependerá mucho del equipamiento de la vivienda (por ejemplo si tiene o carece de aislamiento) y de las costumbres de sus moradores."
+				},
+				{
+					"id": "257",
+					"texto": "Más de 121 m2.",
+					"puntuacion": "0",
+					"anotacion": "Las casas grandes, como la tuya, pueden ser grandes sumideros de energía. Por ejemplo, si necesitan más de siete u ocho radiadores de calefacción. Es una buena oportunidad para revisar si están colocados los termostatos necesarios, si paredes y techos están bien aislados, etc."
+				}
+			]
+		}
+	]
+}
